@@ -1,0 +1,30 @@
+/*
+ * gpgp.c
+ *
+ *  Created on: Jan 6, 2022
+ *      Author: Rahul Dhiman
+ */
+
+
+#include "Header.h"
+#include "stm32l552xx.h"
+//#include "stm32l5xx_hal_gpio.h"
+//#include "testheader.h"
+void gpioInit(void)
+{
+	/*
+	blueLed.port = GPIOB;
+	blueLed.pin = GPIO_P_7;
+
+	redLed.port = GPIOA;
+	redLed.pin  = GPIO_P_9;
+
+	greenLed.port = GPIOC;
+	greenLed.pin = GPIO_P_7;
+	*/
+
+	lampRelay.port = GPIOF;
+	lampRelay.pin = GPIO_P_3;
+
+
+}

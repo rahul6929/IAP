@@ -1,0 +1,33 @@
+/*
+ * Header.h
+ *
+ *  Created on: Jan 5, 2022
+ *      Author: Rahul Dhiman
+ */
+
+#ifndef INC_HEADER_H_
+#define INC_HEADER_H_
+
+
+
+//#include "stm32l5xx_hal_gpio.h"
+
+#include "stm32l552xx.h"
+#include <stdio.h>
+#include <stdint.h>
+
+
+typedef struct gpio_pin
+{
+	GPIO_TypeDef *port;
+	uint16_t pin;
+}Gpio_Name_t;
+
+
+
+#define RED_LED				GPIOA, GPIO_PIN_9
+
+
+
+
+#endif /* INC_HEADER_H_ */

@@ -1,0 +1,17 @@
+/*
+ * gpioPinInit.c
+ *
+ *  Created on: Jan 6, 2022
+ *      Author: Rahul Dhiman
+ */
+
+#include "Header.h"
+
+void gpioPinInit(void)
+{
+	//Gpio_Name_t LED_RED 	= {GPIOA, GPIO_PIN_9};
+	//Gpio_Name_t LED_BLUE 	= {GPIOB, GPIO_PIN_7};
+	//Gpio_Name_t LED_GREEN 	= {GPIOC, GPIO_PIN_7};
+	;
+
+}

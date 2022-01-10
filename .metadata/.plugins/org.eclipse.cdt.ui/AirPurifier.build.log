@@ -1,0 +1,10 @@
+12:59:31 **** Incremental Build of configuration Debug for project AirPurifier ****
+make -j4 all 
+arm-none-eabi-size   AirPurifier.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8472	     20	   1692	  10184	   27c8	AirPurifier.elf
+Finished building: default.size.stdout
+ 
+
+12:59:32 Build Finished. 0 errors, 0 warnings. (took 796ms)
+
